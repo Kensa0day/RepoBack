@@ -23,7 +23,7 @@ app.use(express.urlencoded({extended: false}))
 
 //rute
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello World ONLINE!')
 })
 
 app.get('/blog', (req, res) => {
